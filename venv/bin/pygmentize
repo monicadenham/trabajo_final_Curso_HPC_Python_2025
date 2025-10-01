@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' /home/mdenham/Escritorio/Moni/23_Capacitaciones_Realizadas/08_Gulich_HPC_python_tierra_2025/00_REPO-cursoHPCPython2025/trabajo_final/venv/bin/python "$0" "$@"
+' '''
+import sys
+from pygments.cmdline import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())
