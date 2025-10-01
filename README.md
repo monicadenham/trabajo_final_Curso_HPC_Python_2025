@@ -2,15 +2,17 @@
 
 ## Análisis de cicatrices de incendios forestales en la Patagonia con PyCUDA
 
-Mònica Denham, septiembre 2025
+Mónica Denham, septiembre 2025
 
 
 ## 📁 Estructura
-- `informe_final.ipynb`: Notebook con scripts, ejecuciones, gráficos, resultados y conclusiones.
-- `calculos_incendios.py`: script completo con procesamiento secuencial y paralelo incluido en el informe.
-- `data/`: imágenes satelitales usadas para el procesamiento propuesto.
-- `images/`: imágenes usadas para el informe (PNG).
-- `venv/`: entorno de ejecución para este repositorio. (`source venv/bin/activate` )
+- `informe_final.ipynb`: Informe final del trabajo: notebook con scripts, ejecuciones, gráficos, resultados y conclusiones.
+- `informe_final.pdf` y `informe_final.html`: Notebook anterior convertido a PDF y a HTML. Se incluyen estos formatos alternativos para facilitar la evaluación del trabajo. 
+- `calculos_incendios.py`: script PyCUDA completo con procesamiento secuencial y paralelo incluido en el informe. Los códigos son los mismos que en el notebook. 
+- `data/`: imágenes satelitales usadas como entrada.
+- `images/`: imágenes usadas para el informe final (PNG).
+- `venv/`: entorno de ejecución para este repositorio. (`source venv/bin/activate`). 
+
 
 
 
@@ -25,6 +27,6 @@ Para ejecutarlas, se requiere:
 **Los resultados mostrados en este notebook YA FUERON EJECUTADOS** en mi máquina local (NVIDIA GTX 1080Ti, CUDA 12.9).  
 Pueden revisar los gráficos, tiempos y conclusiones sin necesidad de ejecutar el código.
 
-🔒 Este repositorio es público porque contiene únicamente código y análisis reproducible. Los datos satelitales se descargan automáticamente desde fuentes públicas (Planetary Computer, Landsat, Sentinel-2). 
+#### 🔒 Este repositorio es público porque contiene únicamente código y análisis reproducible. Los datos satelitales se descargan automáticamente desde fuentes públicas (Planetary Computer en este trabajo). 
 
 
